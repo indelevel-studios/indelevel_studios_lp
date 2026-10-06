@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/inde", "destination": "https://inde.indelevelstudios.com", "permanent": true },
+    { "source": "/inde/:path*", "destination": "https://inde.indelevelstudios.com/:path*", "permanent": true }
+  ]
+}
