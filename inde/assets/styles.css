@@ -76,7 +76,16 @@ h1 {
 .grad-bar { height: 3px; width: 72px; background: var(--brand-grad); border-radius: 3px; margin: 0 0 40px; }
 
 /* Long-form document content */
-.doc h2 { font-size: 1.35rem; font-weight: 500; letter-spacing: -0.01em; margin: 48px 0 12px; }
+.doc > p:first-child { color: var(--fg); font-size: 1.06rem; }
+.doc h2 {
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin: 48px 0 16px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+  scroll-margin-top: 24px;
+}
 .doc h3 { font-size: 1.05rem; font-weight: 600; margin: 32px 0 8px; }
 .doc p, .doc li { color: var(--fg-dim); }
 .doc ul, .doc ol { padding-left: 1.3em; }
@@ -87,14 +96,6 @@ h1 {
 .doc table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 0.94rem; display: block; overflow-x: auto; }
 .doc th, .doc td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
 .doc th { color: var(--fg); font-weight: 600; }
-
-.pending {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 24px 28px;
-}
-.pending p { margin: 0; color: var(--fg-dim); }
 
 /* Index: list of documents */
 .lead { color: var(--fg-dim); font-size: 1.1rem; margin: 0 0 40px; max-width: 52ch; }
@@ -127,6 +128,5 @@ h1 {
   .wrap { padding: 0 16px; }
   main { padding: 48px 0 72px; }
   .brand img { height: 15px; }
-  .pending { padding: 20px; }
   .links span { display: none; }
 }
