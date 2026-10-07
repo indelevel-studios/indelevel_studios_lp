@@ -205,7 +205,7 @@ function Footer() {
           <div className="footer-col">
             <h5>Contato</h5>
             <a href={WAb} target="_blank" rel="noopener">WhatsApp</a>
-            <a href="mailto:ola@indelevel.studio">ola@indelevel.studio</a>
+            <a href="mailto:contact@indelevelstudios.com">contact@indelevelstudios.com</a>
             <a href="#faq">FAQ</a>
           </div>
         </div>
