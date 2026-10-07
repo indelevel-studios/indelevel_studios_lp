@@ -1076,7 +1076,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   gap: 24px;
   flex-wrap: wrap;
 }
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .footer-inner { grid-template-columns: 1fr; gap: 36px; }
 }
 
